@@ -5,11 +5,19 @@ body
     margin: 0px;
 }
 
-/*.container
+footer
 {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-}*/
+        font-size: 0.9em;
+        padding: 25px;
+
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+
+  
+       color: #8a8a8a;
+       text-decoration: none;
+}
 
 /*Nav styles*/
 .nav-wrapper
@@ -58,11 +66,15 @@ body
 {
     border-bottom: 1px solid black;
 }
+
 .active-nav-link a
 {
     color: black !important;
 }
-
+.brand
+{
+    color: #8a8a8a;
+}
 /*Portfolio Styles*/ 
 
 
@@ -103,7 +115,7 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: lightgrey;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
@@ -119,7 +131,7 @@ body
 .portfolio-item-wrapper:hover .subtitle
 {
     font-weight: 600;
-    color: white;
+    color: lightgrey;
 }
 
 .profile-image-wrapper img
