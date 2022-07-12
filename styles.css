@@ -19,6 +19,7 @@ footer
        text-decoration: none;
 }
 
+
 /*Nav styles*/
 .nav-wrapper
 {
@@ -75,6 +76,8 @@ footer
 {
     color: #8a8a8a;
 }
+
+
 /*Portfolio Styles*/ 
 
 
@@ -99,15 +102,11 @@ footer
     height: 500px;
 }
 
-
-
 .img-darken
 {
     transition: 1s;
     filter: brightness(10%);
 }
-
-
 
 .img-text-wrapper
 {
@@ -125,13 +124,13 @@ footer
 {
     transition: 0.5s;
     font-weight: 600;
-    color: transparent;
+    opacity: .70;
 }
 
 .portfolio-item-wrapper:hover .subtitle
 {
     font-weight: 600;
-    color: lightgrey;
+    opacity: 1;
 }
 
 .profile-image-wrapper img
@@ -153,4 +152,67 @@ footer
 .profile-content-wrapper h1
 {
     color: lightseagreen;
+}
+
+
+/*Creative Writing*/
+
+*{
+    box-sizing: border-box;
+}
+
+.creative-content-wrapper
+{
+    display: flex;
+}
+
+.creative-wrapper
+{
+    width: 40%;
+    position: relative;
+}
+
+.creative-wrapper img
+{
+    padding-top:10px;
+    width: 100%;
+    height: 500px;
+    filter: brightness(7%);
+}
+
+.img-darken
+{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.creative-img-text-wrapper
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgrey;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.creative-img-text-wrapper .subtitle
+{
+    transition: 1s;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.creative-wrapper:hover .subtitle
+{
+    font-weight: 600;
+    opacity: 0;
+}
+
+.creative-wrapper:hover img
+{
+    transition: 1s;
+    filter: brightness(100%);
 }
