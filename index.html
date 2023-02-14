@@ -70,22 +70,22 @@
     </div>
 </body>
 
-<script>
-    const portfolioI = document.querySelectorAll('.portfolio-item-wrapper')
+    <script>
+        const portfolioI = document.querySelectorAll('.portfolio-item-wrapper')
 
-    portfolioI.forEach(portfolioI => 
-    {
-        portfolioI.addEventListener('mouseover', () => 
+        portfolioI.forEach(portfolioI => 
         {
-            portfolioI.childNodes[1].classList.add('img-darken')
-        })
+            portfolioI.addEventListener('mouseover', () => 
+            {
+                portfolioI.childNodes[1].classList.add('img-darken')
+            })
 
-        portfolioI.addEventListener('mouseout', () => 
-        {
-            portfolioI.childNodes[1].classList.remove('img-darken')
+            portfolioI.addEventListener('mouseout', () => 
+            {
+                portfolioI.childNodes[1].classList.remove('img-darken')
+            })
         })
-    })
-</script>
+    </script>
     
     <footer>
         
