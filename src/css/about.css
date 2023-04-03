@@ -1,10 +1,10 @@
 .profile-image-wrapper img
 {
-    height: 600px;
-    width: 390px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: 10px;
+    height: 80vh;
+    width: 30vw;
+    margin-right: 7vw;
+    margin-left: 7vw;
+    margin-bottom: 1vh;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 3px 4px 0px black;
@@ -14,10 +14,16 @@
 .profile-content-wrapper
 {
     float: inline-start;
-    padding: 60px;
+    padding: 10vh;
 }
 
 .profile-content-wrapper h1
 {
     color: lightseagreen;
+    font-size: 4.5vh;
+}
+
+.profile-content-wrapper p
+{
+    font-size: 2.3vh;
 }
