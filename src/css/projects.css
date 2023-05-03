@@ -41,34 +41,21 @@
     float: left;
     height: 74.9vh;
     width: 28vw;
-    border-right: 2px solid black;
+    
     margin-left: 2.5vw;
     font-size: 2.3vw;
 }
 
-.project-link-wrapper1 
+.project-link-wrapper 
 {
-    margin-top: 5vh;
+    margin-top: 3vh;
     padding: 1.5vh;
 
     cursor: pointer;
 }
 
-.project-link-wrapper2 
-{
-    padding: 1.5vh;
 
-    cursor: pointer;
-}
-
-.project-link-wrapper3 
-{
-    padding: 1.5vh;
-
-    cursor: pointer;
-}
-
-.project-link-wrapper1 a
+.project-link-wrapper a
 {
    
     color: black;
@@ -77,25 +64,9 @@
     transition: color 0.5;
 }
 
-.project-link-wrapper2 a
-{
 
-   color:black;
-    width: 10%;
-    text-decoration: none;
-    transition: color 0.5;
-}
 
-.project-link-wrapper3 a
-{
-
-   color: black;
-   width: 10%;
-   text-decoration: none;
-   transition: color 0.5;
-}
-
-.project-link-wrapper1 a:hover
+.project-link-wrapper a:hover
 {
    color: black;
    border-bottom: 2px solid  black;
@@ -104,20 +75,6 @@
 }
 
 
-.project-link-wrapper2 a:hover
-{
-   color: black;
-   border-bottom: 2px solid black;
-   opacity: 1;
-}
-
-
-.project-link-wrapper3 a:hover
-{
-color: black;
-   border-bottom: 2px solid  black;
-   opacity: 1;
-}
 
 .right
 {
@@ -136,15 +93,19 @@ color: black;
 #project-image
 {
     float: right;
-    width: 32vw;
+    width: 35vw;
     height: 67.45vh;
     margin-top: 3vh;
     transition: 1s;
     margin-left: 5vw;
+
+    
 }
 
 img
 {
+    object-fit: cover;
+    object-position: center;
     border-radius: 20px;
     box-shadow: 10px 10px 5px #ccc;
     /* transform: perspective(1800px) rotate3D(0, 1, 0, -10deg); */
