@@ -98,16 +98,17 @@
     margin-top: 3vh;
     transition: 1s;
     margin-left: 5vw;
-
     
 }
 
 img
 {
-    object-fit: cover;
+    width: 35vw;
+    height: 67.45vh;
+    object-fit:scale-down;
     object-position: center;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px #ccc;
+    background: rgb(250, 250, 250);
     /* transform: perspective(1800px) rotate3D(0, 1, 0, -10deg); */
 }
 
@@ -115,6 +116,8 @@ img:hover
 { 
 
     transform: perspective(1800px) rotate3D(0, 1, 0, 10deg);
+
+    /* box-shadow: 10px 10px 5px #ccc; */
 }
 
 
