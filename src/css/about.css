@@ -1,3 +1,8 @@
+.content-wrapper
+{
+    display: flex;
+}
+
 .profile-image-wrapper img
 {
     height: 80vh;
@@ -13,7 +18,7 @@
 
 .profile-content-wrapper
 {
-    float: inline-start;
+    float: right;
     padding: 10vh;
 }
 
